@@ -4,7 +4,7 @@ import nl.mmeijboom.advent_of_code.tools.Log
 import org.springframework.stereotype.Component
 
 @Component
-class DayOnePuzzleSolver : PuzzleSolver {
+class Day1PuzzleSolver : PuzzleSolver {
     companion object : Log() {}
 
     override fun supports(day: Int): Boolean {
