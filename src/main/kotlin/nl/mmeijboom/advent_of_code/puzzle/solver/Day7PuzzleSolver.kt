@@ -13,7 +13,7 @@ class Day7PuzzleSolver : PuzzleSolver {
     }
 
     override fun solve(input: List<String>) {
-        Day6PuzzleSolver.log.info("SOLVING PUZZLE FOR DAY SEVEN")
+        log.info("SOLVING PUZZLE FOR DAY SEVEN")
         solvePartOne(input)
         solvePartTwo(input)
     }
